@@ -30,3 +30,26 @@ git commit -m 'add Test.js file'     //creat a back_up (save)
 [main (root-commit) d71cc60] add Test.js file
  1 file changed, 1 insertion(+)
  create mode 100644 Test.js
+
+
+ git add ./    //add all files created to get tracked
+
+
+
+
+ git log  //show the history of git whit all infos
+
+
+
+
+ git checkout d94510a529600d14aed6fac6c2df8a8c2280746c    // go back to an old version that get commited
+
+ git checkout main    // go back to the last one the main (last one in time)
+
+ git checkout -f main // annuler tout les changement 
+
+
+
+
+
+ //one piece at the end
