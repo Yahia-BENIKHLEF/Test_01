@@ -1,0 +1,32 @@
+git --version
+
+git config --global user.name 'Yahia'
+git config --global user.email 'yahiabkf@gmail.com'
+
+git init  --creat a reposotory (git folder to follow some think)
+
+git config --global init.defaultBranch main
+
+
+git status       //to check the branch and the changes
+On branch main
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        Git_Commandes.txt
+        Readme.txt
+        Test.js
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+
+
+git add Test.js   //start tracking this file
+
+
+git commit -m 'add Test.js file'     //creat a back_up (save) 
+[main (root-commit) d71cc60] add Test.js file
+ 1 file changed, 1 insertion(+)
+ create mode 100644 Test.js
