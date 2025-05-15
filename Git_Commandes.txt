@@ -70,3 +70,6 @@ git checkout -b bran_02    : both creat and inter
 
 
 git checkout bran_01  bran01_main_name   : creat with specific main
+
+
+git push --set-upstream origin bran_02    : uplaod your brach in to the origin project on line /*
