@@ -5,7 +5,7 @@ git config --global user.email 'yahiabkf@gmail.com'
 
 git init  --creat a reposotory (git folder to follow some think)
 
-git config --global init.defaultBranch main
+git config --global init.defaultBranch main //***
 
 
 git status       //to check the branch and the changes
@@ -52,4 +52,21 @@ git commit -m 'add Test.js file'     //creat a back_up (save)
 
 
 
- //one piece at the end
+//github 
+
+git remote add origin https://github.com/Yahia-BENIKHLEF/Test_01.git  add a online repo from github using lien 
+               origin is the name you can change it to anythink.
+
+git push -u origin main   :put your main  work  in the online reosetory 
+
+
+BRANCH AND MERGE
+
+git branch branch_name   :create a branch
+
+git checkout bran_01   :inter the branch
+
+git checkout -b bran_02    : both creat and inter
+
+
+git checkout bran_01  bran01_main_name   : creat with specific main
