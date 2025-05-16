@@ -57,7 +57,7 @@ git commit -m 'add Test.js file'     //creat a back_up (save)
 git remote add origin https://github.com/Yahia-BENIKHLEF/Test_01.git  add a online repo from github using lien 
                origin is the name you can change it to anythink.
 
-git push -u origin main   :put your main  work  in the online reosetory 
+git push -u origin main   :put your main  work  in the online reposetory 
 
 
 BRANCH AND MERGE
@@ -69,10 +69,14 @@ git checkout bran_01   :inter the branch
 git checkout -b bran_02    : both creat and inter
 
 
-git checkout bran_01  bran01_main_name   : creat with specific main
+git checkout bran_01  bran01_main_name   : creat with specific main (father son)
 
 
 git push --set-upstream origin bran_02    : uplaod your brach in to the origin project on line /*
 
 
 git pull   : get the new changes done by others
+
+git pull project bran_02 : repo online and the branch
+
+git clone  : get the files danlwoded if you dont have it
