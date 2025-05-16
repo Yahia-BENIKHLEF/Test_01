@@ -80,3 +80,6 @@ git pull   : get the new changes done by others
 git pull project bran_02 : repo online and the branch
 
 git clone  : get the files danlwoded if you dont have it
+
+
+git merge bran_02   : de5l l5dma li f bran into main
